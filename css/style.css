@@ -16,6 +16,22 @@
 .ui-menu-color-contact {
     background-color: purple;
 }
+/* Special paddings/margins/text */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.general-sub {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
 /* Heading Styling */
 header {
     margin: 0;
@@ -90,9 +106,11 @@ header {
     font-weight: 600;
     letter-spacing: 2px;
 }
-/* Hover.css */
+/* Footer styling */
 
-
-.hvr-sweep-to-bottom::before {
-    background: red;
+footer {
+    background-color: darkgrey;
+    color: black;
+    min-height: 120px;
+    margin: 0;
 }
