@@ -3,7 +3,7 @@
 .bg-color-name-title {
     background-color: rgba(53, 40, 7, 0.51);
 }
-
+/* ul styling  */
 .ui-menu-color-home {
     background-color: blanchedalmond;
 }
@@ -16,9 +16,6 @@
 .ui-menu-color-contact {
     background-color: purple;
 }
-.ui-menu-color-home {
-    background-color: blanchedalmond;
-}
 /* Heading Styling */
 header {
     margin: 0;
@@ -26,7 +23,7 @@ header {
 .heading {
     margin-left: 50px;
 }
-
+/* FIX TRANSITION FOR IMG */
 .logo {
     background: url("../images/resume-pic.jpg");
     background-position: center;
@@ -51,4 +48,14 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menucontainer {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
