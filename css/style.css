@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/resume-pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
