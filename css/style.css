@@ -3,6 +3,22 @@
 .bg-color-name-title {
     background-color: rgba(53, 40, 7, 0.51);
 }
+
+.ui-menu-color-home {
+    background-color: blanchedalmond;
+}
+.ui-menu-color-about {
+    background-color: blue;
+}
+.ui-menu-color-membership {
+    background-color: red;
+}
+.ui-menu-color-contact {
+    background-color: purple;
+}
+.ui-menu-color-home {
+    background-color: blanchedalmond;
+}
 /* Heading Styling */
 header {
     margin: 0;
