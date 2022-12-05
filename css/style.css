@@ -244,7 +244,3 @@ footer {
 .progress-section {
     margin: 40px 20px;
 }
-
-.hvr-radial-out::before {
-    background: blue;
-}
