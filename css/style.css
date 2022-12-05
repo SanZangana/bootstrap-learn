@@ -193,16 +193,19 @@ footer {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    
 }
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
+    
 }
 
 .personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
+    color: #fff;
 }
 
 .personal-info-item .key {
@@ -219,4 +222,29 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* Progress bar */
+.progress {
+    position: relative;
+    line-height: 0.9;
+    font-size: 1rem;
+    height: 25px;
+    margin-bottom: 4px;
+}
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgb(0, 34, 184, 0.20)
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.hvr-radial-out::before {
+    background: blue;
 }
