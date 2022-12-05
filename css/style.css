@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;700&display=swap');
 /* BG color */
 .bg-color-name-title {
-    background-color: rgba(53, 40, 7, 0.51);
+    background-color: rgb(0, 8, 163);
 }
 /* ul styling  */
 .ui-menu-color-home {
-    background-color: blanchedalmond;
+    background-color: rgb(0, 8, 163);
 }
 .bg-color-three-reasons {
     background-color: #fff;
+}
+.bg-color-personal-info {
+    background: blue;
+
 }
 .ui-menu-color-about {
     background-color: blue;
@@ -32,7 +36,7 @@ h4 {
 .general-sub {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .inline-block {
     display: inline-block;
@@ -112,7 +116,7 @@ header {
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: coral;
+    color: rgb(0, 8, 163);
     font-size: 22px;
 }
 .menuitem span {
@@ -128,8 +132,8 @@ header {
 /* Footer styling */
 
 footer {
-    background-color: darkgrey;
-    color: black;
+    background-color: rgb(0, 8, 163);
+    color: rgb(255, 255, 255);
     min-height: 120px;
     margin: 0;
 }
@@ -159,8 +163,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: ivory;
-    background: rgb(162, 65, 65);
+    color: rgb(0, 34, 184);
+    background: rgb(255, 255, 255);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -172,4 +176,47 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+/* Three reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: blue;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* Personal info */
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
